@@ -6,6 +6,7 @@
 }
 
 body{
+    cursor:pointer;
     background-image: linear-gradient(to right top, rgb(209, 155, 236), rgb(100, 2, 104));
     backdrop-filter: blur(10px);
     color: rgb(107, 60, 136);
@@ -32,7 +33,7 @@ border-radius: 15px;
     border: 2px solid #4f4b4b;
     display: flex;
     justify-content: space-around;
-    padding: 20px 0px;
+    padding: 15px 0px;
     margin: -15px -15px 15px;
     font-size: 20px;
 }
