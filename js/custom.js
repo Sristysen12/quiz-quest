@@ -1,3 +1,6 @@
+alert("Welcome to quiz-Quest !")
+
+
 var skip = document.getElementById('skip');
 var score = document.getElementById('score');
 var total_score = document.getElementById('total_score');
@@ -24,11 +27,11 @@ qaAnsRow.forEach(function(qaAnsRowSingle){
 
         var valid = this.getAttribute("valid");
         if(valid == "valid"){
-            scoreCount +=20;
+            scoreCount +=10;
             score.innerHTML = scoreCount;
             total_score.innerHTML = scoreCount;
         }else{
-            scoreCount -= 20;
+            
             if(scoreCount<0) scoreCount =0;
             score.innerHTML = scoreCount;
             total_score.innerHTML = scoreCount;
